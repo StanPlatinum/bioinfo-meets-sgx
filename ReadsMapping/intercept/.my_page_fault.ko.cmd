@@ -1,1 +1,0 @@
-cmd_/home/ww31/Documents/Desktop/ReadsMapping/intercept/my_page_fault.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/ww31/Documents/Desktop/ReadsMapping/intercept/my_page_fault.ko /home/ww31/Documents/Desktop/ReadsMapping/intercept/my_page_fault.o /home/ww31/Documents/Desktop/ReadsMapping/intercept/my_page_fault.mod.o
