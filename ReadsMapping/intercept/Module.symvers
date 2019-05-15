@@ -1,0 +1,3 @@
+0xdc0872e8	enclave_size	/home/ww31/Documents/IntelSGX/linux-sgx-driver-master/isgx	EXPORT_SYMBOL
+0x8b69980a	ww31enclave_baseaddr	/home/ww31/Documents/IntelSGX/linux-sgx-driver-master/isgx	EXPORT_SYMBOL
+0x67ee5fbb	enclave_baseaddr	/home/ww31/Documents/IntelSGX/linux-sgx-driver-master/isgx	EXPORT_SYMBOL

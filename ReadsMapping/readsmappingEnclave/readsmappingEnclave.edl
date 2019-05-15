@@ -1,0 +1,15 @@
+enclave {
+    trusted {
+        /* define ECALLs here. */
+		public uint32_t fib(uint32_t pn);
+    };
+
+    untrusted {
+        /* define OCALLs here. */	
+        int loadFontFromFile([out, size = 3000]char *pFileBuffer);
+        int openfile();
+        	
+		void MYDEBUG(int out);
+		void TRACE(uint32_t type, uint32_t addr);
+    };
+};
