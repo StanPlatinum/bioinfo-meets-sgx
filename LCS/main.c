@@ -11,6 +11,7 @@ int main() {
 
     LCSLength(x, y, m, n, c);
     PrintLCS(c, x, m, n);
+    printf("\n");
 
     return 0;
 }
