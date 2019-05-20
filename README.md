@@ -1,5 +1,7 @@
-Reads Mapping
+# Reads Mapping
 
-GWAS
+# GWAS
+plink. http://zzz.bwh.harvard.edu/plink/data.shtml
 
-Variation Calling
+
+# Variation Calling
