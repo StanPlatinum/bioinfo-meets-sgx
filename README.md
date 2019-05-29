@@ -9,4 +9,5 @@ plink. http://zzz.bwh.harvard.edu/plink/data.shtml
 
 # Other small alorithms
 ## BWT
+## LCS
 ## SAIS
