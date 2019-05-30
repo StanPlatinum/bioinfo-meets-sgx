@@ -3,7 +3,7 @@
 # GWAS
 ## PLINK
 http://zzz.bwh.harvard.edu/plink/data.shtml
-## Brilliant work from a team from IU
+## Brilliant work from another team of IU, derived from idash2017
 https://github.com/ndokmai/sgx-genome-variants-search
 
 # Variation Calling
@@ -14,3 +14,5 @@ https://software.broadinstitute.org/gatk/
 ## BWT
 ## LCS
 ## SAIS
+## A simple CNN for cancer classification, derived from idash2019
+https://github.com/lpjlwj/idash-sgx-bench
