@@ -9,6 +9,7 @@ https://github.com/ndokmai/sgx-genome-variants-search
 # Variation Calling
 ## GATK
 https://software.broadinstitute.org/gatk/
+I don't find a C/C++ implementation so far...
 
 # Other small alorithms
 ## BWT
