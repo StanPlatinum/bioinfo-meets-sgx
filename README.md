@@ -22,3 +22,6 @@ https://github.com/vcftools/vcftools
 https://github.com/lpjlwj/idash-sgx-bench
 ## Disambiguation algorithm for reads aligned to two species
 https://github.com/AstraZeneca-NGS/disambiguate
+## Imputation
+But this is also a Java version...
+https://github.com/genepi/imputationserver
