@@ -14,7 +14,7 @@ I don't find a C/C++ implementation so far... But Vcftools can be found written 
 
 https://github.com/vcftools/vcftools
 
-# Other small alorithms
+# Other alorithms
 ## BWT
 ## LCS
 ## SAIS
