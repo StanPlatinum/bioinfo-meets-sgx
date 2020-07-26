@@ -5,7 +5,7 @@
 #include <wchar.h>
 #include <stddef.h>
 #include <string.h>
-#include "sgx_edger8r.h" /* for sgx_satus_t etc. */
+#include "sgx_edger8r.h" /* for sgx_status_t etc. */
 
 
 #include <stdlib.h> /* for size_t */
@@ -16,10 +16,22 @@
 extern "C" {
 #endif
 
+#ifndef LOADFONTFROMFILE_DEFINED__
+#define LOADFONTFROMFILE_DEFINED__
 int SGX_UBRIDGE(SGX_NOCONVENTION, loadFontFromFile, (char* pFileBuffer));
-int SGX_UBRIDGE(SGX_NOCONVENTION, openfile, ());
+#endif
+#ifndef OPENFILE_DEFINED__
+#define OPENFILE_DEFINED__
+int SGX_UBRIDGE(SGX_NOCONVENTION, openfile, (void));
+#endif
+#ifndef MYDEBUG_DEFINED__
+#define MYDEBUG_DEFINED__
 void SGX_UBRIDGE(SGX_NOCONVENTION, MYDEBUG, (int out));
+#endif
+#ifndef TRACE_DEFINED__
+#define TRACE_DEFINED__
 void SGX_UBRIDGE(SGX_NOCONVENTION, TRACE, (uint32_t type, uint32_t addr));
+#endif
 
 sgx_status_t fib(sgx_enclave_id_t eid, uint32_t* retval, uint32_t pn);
 

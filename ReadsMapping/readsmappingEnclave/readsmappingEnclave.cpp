@@ -8,7 +8,9 @@
 #include <string.h>
 #include <assert.h>
 #include <sgx_tae_service.h>
+
 #include <string>
+
 #include "nw.h"
 using namespace std;
 
@@ -43,7 +45,7 @@ void readfiletobuffer(void)
 
 uint32_t fib(uint32_t pn)
 {
-	readfiletobuffer();
+	//readfiletobuffer();
 	
 	//MYDEBUG(inputfilesize);
 	int len = strlen(reads);
